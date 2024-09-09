@@ -104,8 +104,8 @@ class ZbmathHandler(xml.sax.ContentHandler):
 
 # Initialize parser
 parser = xml.sax.make_parser()
-handler = ZbmathHandler('big-output.rdf', chunk_size=1_000_000)  # Set buffer size (e.g., 1 MB)
+handler = ZbmathHandler('Dataset Big/big-output.rdf', chunk_size=1_000_000)  # Set buffer size (e.g., 1 MB)
 parser.setContentHandler(handler)
 
 # Parse the XML file
-parser.parse("Big Dataset.xml")
+parser.parse("Dataset Big.xml")

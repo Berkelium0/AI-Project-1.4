@@ -31,4 +31,4 @@ def split_rdf_file(file_path, max_size_mb):
 
 
 # Usage
-split_rdf_file('/Users/berke/PycharmProjects/AISysProj-1.4/big-output.rdf', max_size_mb=500)
+split_rdf_file('/Dataset Big/big-output.rdf', max_size_mb=500)

@@ -6,7 +6,7 @@ import urllib.parse
 from urllib.parse import quote_plus
 
 # Load and parse the XML file
-file_path = 'problems-big.xml'
+file_path = 'Problems and Solutions/problems-big.xml'
 tree = ET.parse(file_path)
 root = tree.getroot()
 
@@ -220,4 +220,4 @@ for problem in root.findall('Problem'):
         solution = format_solution(response.text, problem.attrib["id"], sparql_query)
     all_solutions.append(solution)
 
-write_solutions_to_xml(all_solutions, "solutions-big.xml")
+write_solutions_to_xml(all_solutions, "Problems and Solutions/solutions-big.xml")
