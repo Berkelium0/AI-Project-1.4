@@ -1,8 +1,6 @@
-# Repository for ss24.1.4/team765
+# Repository for AI Project 1.4
 
-This is the repository for you solution. You can modify this README file any way you see fit.
-
-**Topic:** SS24 Assignment 1.4: Query Math Data
+**Assignment:** [Query Math Data](https://kwarc.info/teaching/AISysProj/SS24/assignment-1.4.pdf)
 
 # Problem Solver with Blazegraph Integration
 
